@@ -1,0 +1,25 @@
+body {
+  min-height: 3000px;
+}
+
+.jumbotron {
+  padding-top: 7rem;
+  background-color: grey;
+}
+
+.misi {
+  background-color: grey;
+  padding-bottom: 7rem;
+}
+
+.product {
+  padding-top: 7rem;
+}
+
+.team {
+  padding-top: 7rem;
+}
+
+//.price {
+//background-color: grey;
+//}

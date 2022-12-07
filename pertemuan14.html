@@ -1,0 +1,35 @@
+<!--Kelompok 3
+    apa saja yang harus diperhatikan untuk memberi nama variabel
+
+    hal yang perlu diperhatikan adalah:
+    a. dimulai dengan huruf atau garis bawah
+    b. spasi tidak diperbolehkan
+    c. case sensitif, huruf kecil dan huruf besar mempunyai makna berbeda
+    d. dilarang menggunakan reserved word-->
+
+<!--buatlah program mencari luas persegi panjang.html -->
+<!DOCTYPE html">
+<html>
+  <head>
+    <title>Menghitung luas persegi panjang</title>
+    <script type="text/javascript">
+      function hitungLuas() {
+        var Panjang, Lebar, Luas;
+
+        Panjang = parseInt(document.getElementById('panjang').value);
+        Lebar = parseInt(document.getElementById('lebar').value);
+        Luas = Panjang * Lebar;
+        document.getElementById('luas').value = Luas;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Menghitung luas persegi panjang</h1>
+    <form>
+      <p>Panjang: <input type="text" id="panjang" /></p>
+      <p>Lebar: <input type="text" id="lebar" /></p>
+      <p><input type="button" value="Hitung" onclick="hitungLuas();" /></p>
+      <p>Luas: <input type="text" id="luas" /></p>
+    </form>
+  </body>
+</html>
