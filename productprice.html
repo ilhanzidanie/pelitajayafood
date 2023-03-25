@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Pelita Jaya Food</title>
+
     <!--pengertian switch case : switch case adalah fungsi yang berguna untuk membuat pengecekan sebuah 
     nilai dan nilai yang tersedia untuk pengecekan bisa banyak atau lebih dari satu-->
     <link
@@ -31,8 +34,8 @@
 
       /* CSS media query untuk layar dengan lebar > 576px dan <= 768px */
       @media (min-width: 577px) and (max-width: 768px) {
-        body {
-          height: 100dvh;
+        .c1 {
+          margin: 20px;
         }
       }
 
@@ -52,7 +55,7 @@
     </style>
   </head>
   <body>
-    <div class="container c1 bg-dark text-light shadow-lg px-3">
+    <div class="c1 bg-dark text-light shadow-lg px-4">
       <h1 class="pt-3">Pelita Jaya Food</h1>
       <h3 class="pb-4">Product Price</h3>
       <ul class="list-group">
@@ -95,7 +98,40 @@
         <h5 id="hasil"></h5>
       </div>
     </div>
-
+    <section class="bg-dark">
+      <div class="container">
+        <footer class="mt-5 pt-5 pb-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-muted">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link px-2 text-muted">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#misi" class="nav-link px-2 text-muted"
+                >Mision and Vision</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#product" class="nav-link px-2 text-muted">Product</a>
+            </li>
+            <li class="nav-item">
+              <a href="#team" class="nav-link px-2 text-muted">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link px-2 text-muted">Contact</a>
+            </li>
+          </ul>
+          <p class="text-center text-muted">
+            Wisma Pelita, Lt. 8, Jl. Letjen Mt. Haryono No.Kav. 16, RT.11/RW.5,
+            Tebet Bar, Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota
+            Jakarta 12810<br />
+            <br />&copy;2022 PT.Pelita Jaya Food
+          </p>
+        </footer>
+      </div>
+    </section>
     <script type="text/javascript">
       function myProduct(event) {
         event.preventDefault();
