@@ -23,10 +23,36 @@
       .btn {
         border-radius: 10px;
       }
+      @media (max-width: 576px) {
+        .c1 {
+          margin: 10px;
+        }
+      }
+
+      /* CSS media query untuk layar dengan lebar > 576px dan <= 768px */
+      @media (min-width: 577px) and (max-width: 768px) {
+        .c1 {
+          margin: 20px;
+        }
+      }
+
+      /* CSS media query untuk layar dengan lebar > 768px dan <= 992px */
+      @media (min-width: 769px) and (max-width: 992px) {
+        .c1 {
+          margin: 30px;
+        }
+      }
+
+      /* CSS media query untuk layar dengan lebar > 992px */
+      @media (min-width: 993px) {
+        .c1 {
+          margin: 50px;
+        }
+      }
     </style>
   </head>
   <body>
-    <div class="c1 bg-dark text-light shadow-lg mx-4 px-5 mt-5">
+    <div class="c1 bg-dark text-light shadow-lg px-3">
       <h1 class="pt-3">Pelita Jaya Food</h1>
       <h3 class="pb-4">Product Price</h3>
       <ul class="list-group">
